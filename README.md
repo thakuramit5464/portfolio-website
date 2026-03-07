@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+A modern, responsive personal portfolio website built with Next.js, showcasing projects, skills, and professional experience.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Visit the live website: [https://portfolio-website-three-eta-26.vercel.app/](https://portfolio-website-three-eta-26.vercel.app/)
+
+## ✨ Features
+
+- **Hero Section**: Professional introduction with profile photo and social links
+- **About Me**: Detailed background and experience summary
+- **Tech Stack**: Interactive skills showcase
+- **Experience Highlights**: Key achievements and expertise areas
+- **Projects**: Featured projects with live demos and GitHub links
+- **Services**: What I can help with (Frontend, Full-Stack, etc.)
+- **Contact Form**: Direct contact functionality
+- **Responsive Design**: Optimized for all devices
+- **Dark Mode Support**: Automatic theme switching
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16
+- **Frontend**: React 19, TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
+- **Linting**: ESLint
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/thakuramit5464/portfolio-website.git
+   cd portfolio-website
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🚀 Deployment
+
+This project is deployed on Vercel. To deploy your own version:
+
+1. Fork this repository
+2. Connect your GitHub account to Vercel
+3. Import the project and deploy
+
+## 📁 Project Structure
+
+```
+portfolio-website/
+├── app/
+│   ├── components/
+│   │   ├── ContactForm.tsx
+│   │   ├── ProjectCard.tsx
+│   │   └── SkillList.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+│   └── profile-photo.jpg
+├── package.json
+├── next.config.ts
+├── tailwind.config.js
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is a personal portfolio project, but feel free to fork and customize it for your own use!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 License
 
-## Learn More
+This project is open source and available under the [MIT License](LICENSE).
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Amit Kumar Singh**
+- LinkedIn: [amitkumarsingh5464](https://linkedin.com/in/amitkumarsingh5464)
+- GitHub: [thakuramit5464](https://github.com/thakuramit5464)
+- Email: thakuramit5464@gmail.com
